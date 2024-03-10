@@ -180,8 +180,6 @@ const GitProfile = ({ config }: { config: Config }) => {
     }
   };
 
-  console.log('sanitizedConfig',sanitizedConfig.projects.external);
-
   return (
     <HelmetProvider>
       <div className="fade-in h-screen">
