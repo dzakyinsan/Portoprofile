@@ -28,6 +28,8 @@ export interface SanitizedExternalProject {
 
 export interface SanitizedExternalProjects {
   header: string;
+  bioTitle: string;
+  bio: string;
   projects: SanitizedExternalProject[];
 }
 

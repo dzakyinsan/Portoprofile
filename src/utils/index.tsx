@@ -51,6 +51,8 @@ export const getSanitizedConfig = (
           },
         },
         external: {
+          bio: config?.projects?.external?.bio || '',
+          bioTitle: config?.projects?.external?.bioTitle || '',
           header: config?.projects?.external?.header || 'My Projects',
           projects: config?.projects?.external?.projects || [],
         },

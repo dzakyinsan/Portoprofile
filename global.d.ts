@@ -71,6 +71,8 @@ interface ExternalProjects {
    * Header
    */
   header?: string;
+  bioTitle?: string;
+  bio?: string;
 
   /**
    * Project list

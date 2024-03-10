@@ -30,6 +30,7 @@ import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
 import Footer from './footer';
 import PublicationCard from './publication-card';
+import BioCard from './bio-card';
 
 /**
  * Renders the GitProfile component.
@@ -179,6 +180,8 @@ const GitProfile = ({ config }: { config: Config }) => {
     }
   };
 
+  console.log('sanitizedConfig',sanitizedConfig.projects.external);
+
   return (
     <HelmetProvider>
       <div className="fade-in h-screen">
@@ -246,6 +249,10 @@ const GitProfile = ({ config }: { config: Config }) => {
                 </div>
                 <div className="lg:col-span-2 col-span-1">
                   <div className="grid grid-cols-1 gap-6">
+                    <BioCard
+                      bio={sanitizedConfig.projects.external.bio}
+                      bioTitle={sanitizedConfig.projects.external.bioTitle}
+                    />
                     {sanitizedConfig.projects.github.display && (
                       <GithubProjectCard
                         header={sanitizedConfig.projects.github.header}
