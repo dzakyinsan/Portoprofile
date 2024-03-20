@@ -52,12 +52,6 @@ const CONFIG = {
           imageUrl: 'https://i.ibb.co/d2qDJ9w/Screenshot-2024-03-09-154507.png',
           link: 'https://pokemon-app-itypescript.vercel.app/',
         },
-        {
-          title: 'Pokemon deck',
-          description: `also a simple pokemon deck that shows pokemon list, detail pokemon and can catch the pokemon with 50% probability of being caught, and store the pokemon at pokemon deck, create using React js, javascript and reactstrap only and the development will not continue`,
-          imageUrl: 'https://i.ibb.co/SNTKvWk/Screenshot-2024-03-09-151935.png',
-          link: 'https://pokemon-deck.vercel.app/',
-        },
       ],
     },
   },
