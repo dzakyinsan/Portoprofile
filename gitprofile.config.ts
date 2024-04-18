@@ -52,6 +52,12 @@ const CONFIG = {
           imageUrl: 'https://i.ibb.co/d2qDJ9w/Screenshot-2024-03-09-154507.png',
           link: 'https://pokemon-app-itypescript.vercel.app/',
         },
+        {
+          title: 'Landing Page',
+          description: `A simple apple clone landing page create using React js and Tailwind`,
+          imageUrl: 'https://i.ibb.co/ky5j9qf/apple.png',
+          link: 'https://tailwind-five-delta.vercel.app//',
+        },
       ],
     },
   },
