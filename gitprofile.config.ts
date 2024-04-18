@@ -55,7 +55,7 @@ const CONFIG = {
         {
           title: 'Landing Page',
           description: `A simple apple clone landing page create using React js and Tailwind`,
-          imageUrl: 'https://i.ibb.co/ky5j9qf/apple.png',
+          imageUrl: 'https://i.ibb.co/mBbkXhw/apple.png',
           link: 'https://tailwind-five-delta.vercel.app//',
         },
       ],
