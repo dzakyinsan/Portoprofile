@@ -48,8 +48,8 @@ const CONFIG = {
         },
         {
           title: 'Pokemon App',
-          description: `A simple pokemon app that shows infinite scroll pokemon list  create using React js, typescript, graphql and antd only and the development will continue`,
-          imageUrl: 'https://i.ibb.co/d2qDJ9w/Screenshot-2024-03-09-154507.png',
+          description: `A simple pokemon app create using React js, typescript, graphql, scss and antd`,
+          imageUrl: 'https://ibb.co.com/xLj74g5',
           link: 'https://pokemon-app-itypescript.vercel.app/',
         },
         {
