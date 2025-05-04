@@ -22,10 +22,13 @@ const LazyImage: React.FC<{
   useEffect(() => {
     const imageToLoad = new Image();
     imageToLoad.src = src;
-
-    imageToLoad.onload = () => {
+  
+    if (imageToLoad.complete) {
       setLoading(false);
-    };
+    } else {
+      imageToLoad.onload = () => setLoading(false);
+      imageToLoad.onerror = () => setLoading(false);
+    }
   }, [src]);
 
   return (

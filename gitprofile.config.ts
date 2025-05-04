@@ -30,12 +30,12 @@ const CONFIG = {
     },
     external: {
       bioTitle: 'Hello There',
-      bio: `I'm dzaky, a frontend engineer fueled by a genuine passion for coding and a relentless thirst for knowledge. Over the past four years, I've immersed myself in the dynamic world of web development, constantly pushing boundaries and exploring innovative solutions. My journey has been marked by a deep-seated love for writing clean, elegant code and a burning desire to stay ahead of the curve in an ever-evolving industry. With a foundation built on HTML, CSS, and JavaScript, along with expertise in various frontend frameworks like React and Angular, I thrive on turning ideas into seamless, user-centric experiences. But what truly sets me apart is my unwavering eagerness to embrace new challenges and learn from every opportunity, ensuring that I continue to grow and evolve with each line of code I write.`,
+      bio: `I'm Dzaky, a frontend engineer with four years of experience, passionate about coding and crafting seamless user experiences. I thrive on learning, innovation, and tackling new challenges.`,
       header: 'Project',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Kloola Web App',
+          title: 'Kloola Web App (Deprecated)',
           description: `This is a Kloola web app project where I participated in creating it, created using Reactjs, Typescript, GraphQL and Antd. To try it, you can use a trial account by entering the email txt@getnada.com and Clodeo123!`,
           imageUrl: 'https://i.ibb.co/drtywq5/Screenshot-2024-03-09-145532.png',
           link: 'https://app.kloola.id/',
@@ -47,17 +47,17 @@ const CONFIG = {
           link: 'https://portal.shipdeo.com/',
         },
         {
-          title: 'Pokemon App',
-          description: `A simple pokemon app create using React js, typescript, graphql, scss and antd`,
-          imageUrl: 'https://ibb.co.com/xLj74g5',
-          link: 'https://pokemon-app-itypescript.vercel.app/',
+          title: 'Pajakind Web App',
+          description: `PajakInd is a tax service platform that helps individuals and businesses in Indonesia manage tax reporting, payments, consultations, e-stamps, and business legality processes online through a secure and user-friendly dashboard, created using Reactjs, Redux saga and Material UI.`,
+          imageUrl: 'https://i.ibb.co.com/CN5qBDr/Screenshot-2025-05-04-at-16-43-39.png',
+          link: 'https://web.pajakind.com/dashboard',
         },
         {
-          title: 'Landing Page',
-          description: `A simple landing page create using Next js and Tailwind`,
-          imageUrl: 'https://ibb.co.com/sV3CxK4',
-          link: 'https://company-profile-eight-black.vercel.app/',
-        },
+          title: 'Pokemon App',
+          description: `A simple pokemon app create using React js, typescript, graphql, scss and antd`,
+          imageUrl: 'https://i.ibb.co.com/23FHRRCV/Screenshot-2025-05-04-at-16-45-53.png',
+          link: 'https://pokemon-app-itypescript.vercel.app/',
+        }
       ],
     },
   },
@@ -78,6 +78,7 @@ const CONFIG = {
     'JavaScript',
     'TypeScript',
     'React.js',
+    'Next.js',
     'Node.js',
     'Git',
     'CSS',
@@ -87,10 +88,17 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'PT Tirta Medical Center',
+      position: 'Frontend Engineer',
+      from: 'Jul 2024',
+      to: 'Present',
+      companyLink: '',
+    },
+    {
       company: 'Clodeo Indonesia Jaya',
       position: 'Frontend Engineer',
       from: 'May 2021',
-      to: 'Present',
+      to: 'June 2024',
       companyLink: 'https://kloola.id/',
     },
     {
@@ -105,7 +113,12 @@ const CONFIG = {
     {
       name: 'Web & Mobile Development',
       body: 'Purwadhika Coding School',
-      year: 'Feb 2020',
+      year: '2020',
+    },
+    {
+      name: 'Javascript Fundamental',
+      body: 'Hactiv8',
+      year: '2020',
     },
   ],
   educations: [
